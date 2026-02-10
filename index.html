@@ -1,1 +1,227 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Social Media Consultant | Your Name</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
 
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-row">
+      <a class="logo" href="#">YourName<span>.</span></a>
+
+      <nav class="nav">
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#about">About</a>
+        <a href="#contact" class="btn btn-sm">Book a Call</a>
+      </nav>
+
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+    </div>
+
+    <div class="container mobile-nav" id="mobileNav">
+      <a href="#services">Services</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#about">About</a>
+      <a href="#contact">Book a Call</a>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">Social Media Consultant</p>
+          <h1>Grow your brand with strategy, content, and consistency.</h1>
+          <p class="subtext">
+            I help creators and small businesses turn views into customers using a clear plan,
+            scroll-stopping content, and simple analytics.
+          </p>
+
+          <div class="cta-row">
+            <a class="btn" href="#contact">Get a Free Audit</a>
+            <a class="btn btn-ghost" href="#portfolio">See Results</a>
+          </div>
+
+          <div class="stats">
+            <div class="stat">
+              <strong>+120%</strong>
+              <span>avg. reach boost</span>
+            </div>
+            <div class="stat">
+              <strong>3–5x</strong>
+              <span>engagement lifts</span>
+            </div>
+            <div class="stat">
+              <strong>30 days</strong>
+              <span>content roadmap</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card hero-card">
+          <h2>Quick Audit Checklist</h2>
+          <ul class="checklist">
+            <li>Bio & profile optimization</li>
+            <li>Content pillars & hooks</li>
+            <li>Hashtag + SEO strategy</li>
+            <li>Posting schedule</li>
+            <li>Analytics review</li>
+          </ul>
+
+          <form class="mini-form" id="auditForm">
+            <label>
+              Your email
+              <input type="email" id="email" placeholder="you@email.com" required />
+            </label>
+            <button class="btn btn-full" type="submit">Send Me the Checklist</button>
+            <p class="fineprint" id="formMsg" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="section" id="services">
+      <div class="container">
+        <h2>Services</h2>
+        <p class="section-lead">Pick what you need — or bundle for faster growth.</p>
+
+        <div class="grid-3">
+          <article class="card">
+            <h3>Strategy Session</h3>
+            <p>60-minute call + a custom plan for your platform and niche.</p>
+            <ul class="bullets">
+              <li>Content pillars</li>
+              <li>Posting schedule</li>
+              <li>Hook ideas</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>Content Planning</h3>
+            <p>30-day content calendar with captions, topics, and CTAs.</p>
+            <ul class="bullets">
+              <li>Reel/TikTok scripts</li>
+              <li>Batch filming guide</li>
+              <li>Brand voice</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>Analytics + Optimization</h3>
+            <p>Monthly reporting with what to repeat and what to stop doing.</p>
+            <ul class="bullets">
+              <li>Top posts breakdown</li>
+              <li>Audience insights</li>
+              <li>Next-step actions</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section class="section alt" id="portfolio">
+      <div class="container">
+        <h2>Recent Results</h2>
+        <p class="section-lead">A few examples of outcomes (swap these with your own).</p>
+
+        <div class="grid-3">
+          <article class="card">
+            <h3>Local Boutique</h3>
+            <p><strong>+78%</strong> profile visits in 21 days</p>
+            <p class="muted">Updated bio, consistent reels, improved CTAs.</p>
+          </article>
+
+          <article class="card">
+            <h3>Food Business</h3>
+            <p><strong>2.4x</strong> engagement</p>
+            <p class="muted">Content pillars + weekly menu content series.</p>
+          </article>
+
+          <article class="card">
+            <h3>Personal Brand</h3>
+            <p><strong>+9K</strong> new followers</p>
+            <p class="muted">Hook testing + stronger storytelling format.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="container about-grid">
+        <div class="card">
+          <h2>About Me</h2>
+          <p>
+            Hi, I’m <strong>Your Name</strong> — a Social Media Consultant focused on growth that actually
+            matches your goals (sales, bookings, community, or brand awareness).
+          </p>
+          <p class="muted">
+            Replace this with your story: what you help with, your experience, and who you work best with.
+          </p>
+        </div>
+
+        <div class="card">
+          <h2>Tools I Use</h2>
+          <ul class="bullets">
+            <li>Content calendars</li>
+            <li>Performance dashboards</li>
+            <li>Brand voice guides</li>
+            <li>Competitor research</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section alt" id="contact">
+      <div class="container">
+        <h2>Contact</h2>
+        <p class="section-lead">Send a message and I’ll reply within 24–48 hours.</p>
+
+        <form class="contact-form" id="contactForm">
+          <div class="grid-2">
+            <label>
+              Name
+              <input type="text" id="name" placeholder="Your name" required />
+            </label>
+
+            <label>
+              Email
+              <input type="email" id="contactEmail" placeholder="you@email.com" required />
+            </label>
+          </div>
+
+          <label>
+            What do you need help with?
+            <textarea id="message" rows="5" placeholder="Tell me about your goals..." required></textarea>
+          </label>
+
+          <button class="btn" type="submit">Send Message</button>
+          <p class="fineprint" id="contactMsg" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <p>© <span id="year"></span> Your Name. All rights reserved.</p>
+      <div class="social">
+        <a href="#" aria-label="Instagram">Instagram</a>
+        <a href="#" aria-label="TikTok">TikTok</a>
+        <a href="#" aria-label="LinkedIn">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
