@@ -94,9 +94,16 @@ footer {
   background-color: #ffd6e7;
 }
 .profile-pic {
-  width: 160px;
-  height: 160px;
+  width: 140px;
+  height: 140px;
   border-radius: 50%;
   object-fit: cover;
-  margin-top: 10px;
 }
+.header-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  background-color: #ffd6e7;
+}
+
