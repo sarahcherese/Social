@@ -1,27 +1,95 @@
-background {
-  background-color: lightpink;
-}
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  background-color: #fff5f8;   /* very light pink */
+  color: #333;
 }
 
-header, main, footer {
+/* Header + Nav */
+header {
+  background-color: #ffd6e7;   /* pastel pink */
   padding: 16px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav {
+  margin-top: 10px;
 }
 
 nav a {
-  margin-right: 12px;
+  text-decoration: none;
+  color: #333;
+  margin: 0 10px;
+  font-weight: bold;
 }
 
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main layout */
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+/* Sections (uniform look) */
 section {
-  margin-top: 24px;
-  padding-top: 12px;
-  border-top: 1px solid #ccc;
+  background-color: #ffffff;
+  border: 1px solid #ffd6e7;
+  border-radius: 10px;
+  padding: 16px;
+  margin-top: 16px;
 }
 
+h2 {
+  margin-top: 0;
+  color: #b84c7a; /* darker pink for headings */
+}
+
+/* Buttons / Links */
+a {
+  color: #b84c7a;
+}
+
+button {
+  background-color: #ffd6e7;
+  border: 1px solid #b84c7a;
+  padding: 10px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #ffbfdc;
+}
+
+/* Form styling */
 input, textarea {
   width: 100%;
-  max-width: 400px;
+  max-width: 500px;
+  padding: 10px;
+  margin-top: 6px;
+  border: 1px solid #ffd6e7;
+  border-radius: 8px;
+}
+
+label {
+  font-weight: bold;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 16px;
+  margin-top: 20px;
+  background-color: #ffd6e7;
 }
