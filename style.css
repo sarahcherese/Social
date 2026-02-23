@@ -83,6 +83,18 @@ input, textarea {
   border: 1px solid #ffd6e7;
   border-radius: 8px;
 }
+.contact-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.contact-image {
+  width: 250px;
+  border-radius: 10px;
+}
+.contact-text {
+  flex: 1;
+}
 
 label {
   font-weight: bold;
