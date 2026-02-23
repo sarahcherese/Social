@@ -1,37 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Social Grit</title>
-    <style>
-        /* Add styles for the circular image */
-        .profile-pic {
-            width: 100px; /* Set desired width */
-            height: 100px; /* Set desired height */
-            border-radius: 50%; /* Make it circular */
-            object-fit: cover; /* Maintain aspect ratio */
-            margin-right: 10px; /* Space between image and title */
-        }
-
-        /* Additional styles for the header */
-        header {
-            display: flex;
-            align-items: center;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Social Media Consultant</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .header-content {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+    
+    .profile-pic {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      flex-shrink: 0;
+    }
+  </style>
 </head>
+
 <body>
-    <header>
-        <img src="headshot.png" alt="Headshot" class="profile-pic">
+
+  <!-- Header / Navigation -->
+  <header>
+    <div class="header-content">
+      <img src="headshot.png" alt="Sarah's professional headshot" class="profile-pic">
+      <div>
         <h1>Social Grit</h1>
-    </header>
-    <main>
-        <section>
-            <h2>Welcome to Social Grit</h2>
-            <p>Your one-stop solution for social media consulting.</p>
-            <!-- Original content continues here... -->
-        </section>
-    </main>
-</body>
-</html>
+        <nav>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+
+    <!-- Hero / Intro -->
+    <section id="hero">
+      <h2>Social Media Consulting</h2>
+      <p>
+        I help people who want to be a content creator with structured reinforment so they can be the next social influence.
+      </p>
+      <p>
+        <a href="#contact">Book a Consultation</a>
+      </p>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+      <h2>Who is Sarah</h2>
+      <p>
+        I'm a social media consultant passionate about helping brands grow their online presence with stragegy and creativity. With experience in digital member services and content creation, I unders[...]
+      </p>
+    </section>
+
+    <!-- Services -->
+    <section id="services">
+      <h2>Services</h2>
+
+      <h3>Tidy Up</h3>
+      <p>Tidy Up is designed to clean and organize your current social media page. I review your bio, highlights, content, and overall branding to make sure everything aligns with your niche and messa[...]
+
+      <h3>30 Day Reset</h3>
+      <p>The 30 Day Reset gives you a structured content plan with pre-made ideas tailored to your brand. This service helps eliminate content confusion and keeps you consistent for 30 days. You'll wa[...]
+
+      <h3>Finding Your Niche</h3>
+      <p>Finding Your Niche helps you discover what truly sets you apart. I guide you through identifying your strengths, interests, and target audience so you can build a brand that feels purposeful.[...]
+    </section>
+
+    <!-- Portfolio -->
+    <section id="portfolio">
+      <h2>Portfolio</h2>
+
+      <h3>Instagram Page Refresh</h3>
+      <p><strong>Goal:</strong> To help a small business clar
+
