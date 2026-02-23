@@ -50,7 +50,9 @@ section {
 
 h2 {
   margin-top: 0;
-  color: #b84c7a; /* darker pink for headings */
+  color: #b84c7a;
+  font-family: 'Baloo 2',cursive;
+  font-size: 30px;/* darker pink for headings */
 }
 
 /* Buttons / Links */
