@@ -93,3 +93,10 @@ footer {
   margin-top: 20px;
   background-color: #ffd6e7;
 }
+.profile-pic {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 10px;
+}
