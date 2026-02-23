@@ -11,7 +11,6 @@ body {
 header {
   background-color: #ffd6e7;   /* pastel pink */
   padding: 16px;
-  text-align: center;
 }
 
 header h1 {
@@ -103,7 +102,7 @@ footer {
   display: flex;
   align-items: center;
   gap: 20px;
-  padding: 20px;
-  background-color: #ffd6e7;
 }
-
+.header-text {
+  text-align: left;
+}
