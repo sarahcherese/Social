@@ -89,7 +89,8 @@ input, textarea {
   gap: 20px;
 }
 .contact-image {
-  width: 250px;
+  width: 200px;
+  height: auto;
   border-radius: 10px;
 }
 .contact-text {
