@@ -83,21 +83,6 @@ input, textarea {
   border: 1px solid #ffd6e7;
   border-radius: 8px;
 }
-.contact-container {
-  display: flex;
-  align-items: flex-start;
-  gap: 20px;
-}
-.contact-image {
-  width: 180px;
-  max-height: 2060px;
-  height: auto;
-  object-fit: cover;
-  border-radius: 10px;
-}
-.contact-text {
-  flex: 1;
-}
 
 label {
   font-weight: bold;
@@ -123,4 +108,19 @@ footer {
 }
 .header-text {
   text-align: left;
+}
+.contact-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+.contact-image {
+  width: 180px;
+  max-height: 2060px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.contact-text {
+  flex: 1;
 }
