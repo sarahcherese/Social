@@ -85,13 +85,14 @@ input, textarea {
 }
 .contact-container {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 20px;
 }
 .contact-image {
-  width: 200px;
-  max-width: 200px;
+  width: 180px;
+  max-height: 2060px;
   height: auto;
+  object-fit: cover;
   border-radius: 10px;
 }
 .contact-text {
