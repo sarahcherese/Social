@@ -127,6 +127,7 @@ footer {
 #contactForm label {
   display: inline-block;
   width: 80px;
+  vertical-align:top;
 }
 #contactForm input, 
 #cotactForm text area {
