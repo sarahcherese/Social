@@ -124,11 +124,15 @@ footer {
 .contact-text {
   flex: 1;
 }
-label {
+#contactForm label {
   display: inline-block;
   width: 80px;
 }
-input, text area {
+#contactForm input, 
+#cotactForm text area {
+  display: inline-block;
   width: 250px;
   margin-bottom: 10px;
+  box-sizing: border-box;
+  vertical-align:top;
 }
