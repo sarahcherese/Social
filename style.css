@@ -124,3 +124,7 @@ footer {
 .contact-text {
   flex: 1;
 }
+label {
+  display: inline-block;
+  width: 80px;
+}
