@@ -5,9 +5,10 @@ background:#fff5f8;
 color:#333;
 }
 
-header{
-background:#ffd6e7;
-padding:16px;
+header {
+  background-color: #ffd6e7;
+  padding: 16px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
 .header-container{
