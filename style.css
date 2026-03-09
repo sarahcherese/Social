@@ -135,3 +135,13 @@ gap:10px;
 }
 
 }
+.about-container {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.about-container img {
+  width: 250px;
+  border-radius: 10px;
+}
