@@ -145,3 +145,11 @@ gap:10px;
   width: 250px;
   border-radius: 10px;
 }
+section img{
+  width:100%;
+  max-width:500px;
+  height:auto;
+  border-radius:10px;
+  display:block;
+  margin-top:10px;
+}
